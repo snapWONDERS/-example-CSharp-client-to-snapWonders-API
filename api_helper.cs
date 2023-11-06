@@ -18,25 +18,25 @@ namespace snapwonders_csharp_client
 
 public class ApiHelper
 {
-	//  The API URLs
+    //  The API URLs
     public const string URL_SNAPWONDERS_API         = "https://api.snapwonders.com/v1/";
-	public const string URL_UPLOAD_CREATE_MEDIA_URL = "upload/create-media-url";
-	public const string URL_JOB_CREATE_ANALYSE      = "job/analyse";
+    public const string URL_UPLOAD_CREATE_MEDIA_URL = "upload/create-media-url";
+    public const string URL_JOB_CREATE_ANALYSE      = "job/analyse";
 
-	//  Content types
-	public const string HTTP_CONTENT_TYPE_JSON = "application/json";
+    //  Content types
+    public const string HTTP_CONTENT_TYPE_JSON = "application/json";
 
-	//  Job status
-	public const string JOB_STATUS_WAITING    = "WAITING";
-	public const string JOB_STATUS_PROCESSING = "PROCESSING";
-	public const string JOB_STATUS_COMPLETED  = "COMPLETED";
+    //  Job status
+    public const string JOB_STATUS_WAITING    = "WAITING";
+    public const string JOB_STATUS_PROCESSING = "PROCESSING";
+    public const string JOB_STATUS_COMPLETED  = "COMPLETED";
 
 
-	// Adds the headers
+    // Adds the headers
     public static void AddApiHeaders(ref HttpRequestMessage req)
-	{
-		req.Headers.Add("Accept", "*/*");
-		req.Headers.Add("Api_Key", ConstHelper.SNAPWONDERS_API_KEY);
+    {
+        req.Headers.Add("Accept", "*/*");
+        req.Headers.Add("Api_Key", ConstHelper.SNAPWONDERS_API_KEY);
     }
 }
 

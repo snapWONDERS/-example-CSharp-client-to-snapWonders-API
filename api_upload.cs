@@ -72,7 +72,7 @@ public class ApiUpload
         }
 
         Console.WriteLine(string.Format("SUCCESS: Created resumable uploading media url:[{0}]", urlCreateMedia));
-	    return urlCreateMedia;
+        return urlCreateMedia;
     }
 
 

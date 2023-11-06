@@ -44,7 +44,7 @@ public class ApiJobs
             JobStatus jsonJobStatus = GetJobStatus(urlJobStatus);
 
             //  Wait for the job to be completed
-		    if (jsonJobStatus.status.Equals(ApiHelper.JOB_STATUS_WAITING)
+            if (jsonJobStatus.status.Equals(ApiHelper.JOB_STATUS_WAITING)
                 || jsonJobStatus.status.Equals(ApiHelper.JOB_STATUS_PROCESSING))
             {
                 Console.WriteLine("INFO: Sleeping for a few seconds...");
@@ -121,7 +121,7 @@ public class ApiJobs
         }
 
         Console.WriteLine(string.Format("SUCCESS: Created analyse job located at url:[{0}]", urlJobAnalyse));
-	    return urlJobAnalyse;
+        return urlJobAnalyse;
     }
 
 
