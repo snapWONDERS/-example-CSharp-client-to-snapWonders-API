@@ -15,8 +15,8 @@
 //  NOTE see constant_helper.cs for constants you MUST setup
 
 
-Console.WriteLine("snapWONDERS Client OpenAPI v3 Go Example!");
-Console.WriteLine("You must set your API key and media path/filename - see constant_helper.cs");
+Console.WriteLine("snapWONDERS Client OpenAPI v3 C# Example!");
+Console.WriteLine("You must set your API key and media path/filename - see constants_helper.cs");
 
 
 //  Create an analyse job and display results
