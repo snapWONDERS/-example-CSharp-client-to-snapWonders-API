@@ -68,6 +68,8 @@ public class ApiJobs
 
         //  Get and display results
         string dataResults = GetJobResults(urlJobResults);
+
+        //  NOTE: You can call getJobResults() for image url resources contained within the JSON result
         Console.WriteLine(JsonPrettify(dataResults));
     }
 

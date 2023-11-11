@@ -12,7 +12,7 @@
  */
 
 
-//  NOTE see constant_helper.cs for constants you MUST setup
+//  NOTE: see constants_helper.cs for constants you MUST setup
 
 
 Console.WriteLine("snapWONDERS Client OpenAPI v3 C# Example!");
